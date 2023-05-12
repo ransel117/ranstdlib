@@ -5,8 +5,7 @@
 #include <stddef.h>
 
 #ifndef __bool_true_false_are_defined
-        __bool_true_and_false_defined
-#define bool _Bool
+typedef _Bool bool;
 #define true 1
 #define false 0
 
